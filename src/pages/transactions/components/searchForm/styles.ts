@@ -15,6 +15,11 @@ export const SearchFormContainer = styled.form`
     &::placeholder {
       color: ${({ theme }) => theme['gray-500']};
     }
+
+    &:disabled {
+      cursor: not-allowed;
+      filter: brightness(0.3);
+    }
   }
 
   button {
@@ -30,7 +35,12 @@ export const SearchFormContainer = styled.form`
     color: ${({ theme }) => theme['green-300']};
     cursor: pointer;
 
-    &:hover {
+    &:disabled {
+      cursor: not-allowed;
+      filter: brightness(0.3);
+    }
+
+    &:not(:disabled):hover {
       background: ${({ theme }) => theme['green-500']};
       border-color: ${({ theme }) => theme['green-500']};
       color: ${({ theme }) => theme.white};

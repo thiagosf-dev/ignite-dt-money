@@ -19,3 +19,15 @@
 - `npm i @radix-ui/react-dialog`
 
 - `npm i @radix-ui/react-radio-group`
+
+- `npm i -d json-server@0.17.4`
+
+- `npx json-server server.json`
+
+- `npm i react-hook-form`
+
+- `npm i @hookform/resolvers`
+
+- `npm i zod`
+
+- `npm i axios`

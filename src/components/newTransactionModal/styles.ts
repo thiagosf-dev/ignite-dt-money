@@ -43,6 +43,11 @@ export const Content = styled(Dialog.Content)`
       background: ${({ theme }) => theme['gray-900']};
       color: ${({ theme }) => theme['gray-300']};
 
+      &:disabled {
+        cursor: not-allowed;
+        filter: brightness(0.3);
+      }
+
       &::placeholder {
         color: ${({ theme }) => theme['gray-500']};
       }
@@ -59,7 +64,12 @@ export const Content = styled(Dialog.Content)`
       background: ${({ theme }) => theme['green-500']};
       color: ${({ theme }) => theme.white};
 
-      &:hover {
+      &:disabled {
+        cursor: not-allowed;
+        filter: brightness(0.3);
+      }
+
+      &:not(:disabled):hover {
         background: ${({ theme }) => theme['green-700']};
         transition: background-color 0.375s;
       }
