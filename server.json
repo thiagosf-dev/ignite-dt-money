@@ -15,6 +15,14 @@
       "type": "income",
       "createdAt": "2024-07-20T04:42:53.104Z",
       "id": 2
+    },
+    {
+      "category": "Alimentação",
+      "description": "Supermercado",
+      "price": 658,
+      "type": "outcome",
+      "createdAt": "2024-07-22T11:03:14.867Z",
+      "id": 3
     }
   ]
 }

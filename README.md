@@ -31,3 +31,7 @@
 - `npm i zod`
 
 - `npm i axios`
+
+- `npm i use-context-selector`
+
+- `npm i scheduler`
